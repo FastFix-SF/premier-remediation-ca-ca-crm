@@ -1,6 +1,31 @@
 {
-  "heroGallery": [],
-  "defaultServiceImage": "",
-  "defaultAreaImage": "",
-  "_comment": "This file is auto-generated during deployment. heroGallery contains showcase project images for the hero section."
+  "heroGallery": [
+    {
+      "url": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-showcase-residential-custom-1770024562199.png",
+      "caption": "Residential Project",
+      "location": "Anchorage",
+      "projectType": "service"
+    },
+    {
+      "url": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-showcase-commercial-custom-1770024567136.png",
+      "caption": "Commercial Project",
+      "location": "Juneau",
+      "projectType": "service"
+    },
+    {
+      "url": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-showcase-emergency-custom-1770024573040.png",
+      "caption": "Emergency Response",
+      "location": "Anchorage",
+      "projectType": "service"
+    },
+    {
+      "url": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-showcase-team-custom-1770024579743.png",
+      "caption": "Our Expert Team",
+      "location": "San francisco",
+      "projectType": "service"
+    }
+  ],
+  "defaultServiceImage": "/images/placeholders/service-default.jpg",
+  "defaultAreaImage": "/images/placeholders/area-default.jpg",
+  "_generated": "2026-02-02T09:30:32.492Z"
 }

@@ -1,56 +1,611 @@
 [
   {
-    "id": "residential-roofing",
-    "slug": "residential-roofing",
-    "name": "Residential Roofing",
-    "shortDescription": "Premium metal roofing solutions for homes",
-    "icon": "Home",
-    "heroImage": "/lovable-uploads/2ec5247c-14cb-4a9b-9fe1-fd72913ad3e7.png",
-    "heroTitle": "Residential Metal Roofing",
-    "heroHighlight": "Bay Area Experts",
-    "description": "Transform your home with premium metal roofing. Fire-resistant, energy-efficient, and built to last 40-70+ years. Perfect for Bay Area homes.",
+    "id": "asbestos-lead-abatement",
+    "slug": "asbestos-lead-abatement",
+    "name": "Asbestos & Lead Abatement",
+    "shortDescription": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation.",
+    "description": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation.",
+    "icon": "AlertTriangle",
+    "heroImage": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-service-asbestos--lead-abatement-1770024509144.png",
+    "heroTitle": "Safe Asbestos & Lead Removal in San Francisco",
+    "heroHighlight": "",
+    "heroSubheadline": "Trust Premier Remediation for expert removal of hazardous materials, ensuring a safe environment for your property and loved ones.",
+    "introText": "At Premier Remediation CA, we specialize in safe asbestos and lead abatement. Our licensed team follows strict EPA and Cal/OSHA standards, giving you peace of mind.",
     "benefits": [
-      {"icon": "Shield", "title": "Fire Resistance", "description": "Class A fire rating for wildfire protection"},
-      {"icon": "Award", "title": "Energy Efficient", "description": "Reduces cooling costs by up to 25%"},
-      {"icon": "Clock", "title": "Long Lasting", "description": "40-70+ year lifespan with minimal maintenance"},
-      {"icon": "CheckCircle", "title": "Weather Resistant", "description": "Handles wind, hail, and seismic activity"}
+      {
+        "title": "24/7 Emergency Service",
+        "description": "We are always ready to help, day or night. Our emergency team responds quickly to remove hazardous materials, ensuring your safety at all times.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Licensed & Certified",
+        "description": "Our experienced team is fully licensed and certified. We follow all regulations to ensure safe and effective removal of harmful materials from your property.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Local Experts",
+        "description": "With over 10 years in the San Francisco area, we understand local regulations and community needs. You can trust us for expert remediation services.",
+        "icon": "Users"
+      }
     ],
-    "faqs": [
-      {"question": "How much does a residential metal roof cost?", "answer": "Residential metal roofing costs typically range from $8-$16 per square foot installed, depending on the material type, roof complexity, and local factors."},
-      {"question": "Do metal roofs increase home value?", "answer": "Yes, metal roofs can increase home value by 1-6% and offer up to 85% return on investment."},
-      {"question": "How long do residential metal roofs last?", "answer": "Quality metal roofs last 40-70+ years with minimal maintenance, compared to 15-20 years for asphalt shingles."},
-      {"question": "Are metal roofs noisy during rain?", "answer": "Modern metal roofs with proper insulation and underlayment are no noisier than other roofing materials."},
-      {"question": "Can metal roofs withstand Bay Area weather?", "answer": "Absolutely. Metal roofs excel in Bay Area conditions - fire-resistant, earthquake-safe, and handle coastal salt air."}
+    "processSteps": [
+      {
+        "title": "Step 1: Free Consultation",
+        "description": "Contact us for a free consultation. We assess your property and discuss the best plan for safe removal."
+      },
+      {
+        "title": "Step 2: Thorough Inspection",
+        "description": "Our certified team conducts a detailed inspection to identify all hazardous materials, ensuring nothing is overlooked."
+      },
+      {
+        "title": "Step 3: Safe Removal",
+        "description": "We use advanced techniques to safely remove asbestos and lead, following all safety guidelines for your peace of mind."
+      }
     ],
-    "seoTitle": "Residential Metal Roofing Installation Bay Area",
-    "seoDescription": "Expert residential metal roof installation in the Bay Area. Standing seam, R-panel options. 25-year warranty, fire-resistant.",
-    "seoKeywords": ["residential metal roofing", "home metal roof installation", "Bay Area residential roofing"],
-    "isFeatured": true
+    "ctaText": "Get Your Free Inspection Today",
+    "ctaSubtext": "Contact us now for a risk-free assessment of your property’s safety.",
+    "trustSection": {
+      "title": "Why Trust Premier Remediation?",
+      "points": [
+        "10+ years of local experience in San Francisco",
+        "Fully licensed and compliant with all safety regulations",
+        "Commitment to providing safe and effective remediation"
+      ]
+    },
+    "faqs": [],
+    "seoTitle": "Asbestos & Lead Abatement Services in San Francisco",
+    "seoDescription": "Premier Remediation CA offers licensed asbestos and lead abatement services in San Francisco. Contact us for safe, effective removal!",
+    "seoKeywords": [
+      "asbestos & lead abatement"
+    ],
+    "isFeatured": false,
+    "priceRange": "",
+    "sortOrder": 0,
+    "pageContent": {
+      "heroHeadline": "Safe Asbestos & Lead Removal in San Francisco",
+      "heroSubheadline": "Trust Premier Remediation for expert removal of hazardous materials, ensuring a safe environment for your property and loved ones.",
+      "introText": "At Premier Remediation CA, we specialize in safe asbestos and lead abatement. Our licensed team follows strict EPA and Cal/OSHA standards, giving you peace of mind.",
+      "features": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "We are always ready to help, day or night. Our emergency team responds quickly to remove hazardous materials, ensuring your safety at all times.",
+          "icon": "Clock"
+        },
+        {
+          "title": "Licensed & Certified",
+          "description": "Our experienced team is fully licensed and certified. We follow all regulations to ensure safe and effective removal of harmful materials from your property.",
+          "icon": "Shield"
+        },
+        {
+          "title": "Local Experts",
+          "description": "With over 10 years in the San Francisco area, we understand local regulations and community needs. You can trust us for expert remediation services.",
+          "icon": "Users"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Step 1: Free Consultation",
+          "description": "Contact us for a free consultation. We assess your property and discuss the best plan for safe removal."
+        },
+        {
+          "title": "Step 2: Thorough Inspection",
+          "description": "Our certified team conducts a detailed inspection to identify all hazardous materials, ensuring nothing is overlooked."
+        },
+        {
+          "title": "Step 3: Safe Removal",
+          "description": "We use advanced techniques to safely remove asbestos and lead, following all safety guidelines for your peace of mind."
+        }
+      ],
+      "ctaText": "Get Your Free Inspection Today",
+      "ctaSubtext": "Contact us now for a risk-free assessment of your property’s safety.",
+      "trustSection": {
+        "title": "Why Trust Premier Remediation?",
+        "points": [
+          "10+ years of local experience in San Francisco",
+          "Fully licensed and compliant with all safety regulations",
+          "Commitment to providing safe and effective remediation"
+        ]
+      },
+      "seoTitle": "Asbestos & Lead Abatement Services in San Francisco",
+      "seoDescription": "Premier Remediation CA offers licensed asbestos and lead abatement services in San Francisco. Contact us for safe, effective removal!"
+    }
   },
   {
-    "id": "commercial-roofing",
-    "slug": "commercial-roofing",
-    "name": "Commercial & Industrial",
-    "shortDescription": "Industrial-grade roofing for businesses and warehouses",
-    "icon": "Building",
-    "heroImage": "/lovable-uploads/commercial-roofing.jpg",
-    "heroTitle": "Commercial Metal Roofing",
-    "heroHighlight": "Industrial Solutions",
-    "description": "Durable, cost-effective metal roofing systems for commercial and industrial buildings. Energy-efficient solutions that reduce operating costs.",
+    "id": "clearance-verification",
+    "slug": "clearance-verification",
+    "name": "Clearance & Verification Support",
+    "shortDescription": "Third-party testing coordination and documentation for regulatory compliance and project sign-off.",
+    "description": "Third-party testing coordination and documentation for regulatory compliance and project sign-off.",
+    "icon": "CheckCircle",
+    "heroImage": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-service-clearance--verification-support-1770024515252.png",
+    "heroTitle": "Ensure Safety with Clearance & Verification Support",
+    "heroHighlight": "",
+    "heroSubheadline": "Get reliable third-party testing for compliance and project sign-off in San Francisco. We're here 24/7 for your peace of mind.",
+    "introText": "At Premier Remediation CA, we provide expert Clearance & Verification Support. Our licensed team coordinates third-party testing to ensure your project meets all regulations. Enjoy the confidence of knowing your site is safe and compliant.",
     "benefits": [
-      {"icon": "DollarSign", "title": "Cost Effective", "description": "Lower lifetime costs than traditional roofing"},
-      {"icon": "Zap", "title": "Energy Savings", "description": "Reflective coatings reduce cooling costs"},
-      {"icon": "Shield", "title": "Durable", "description": "Withstands heavy foot traffic and equipment"},
-      {"icon": "Clock", "title": "Quick Installation", "description": "Minimize business disruption"}
+      {
+        "title": "Expert Coordination",
+        "description": "We handle all the details of testing, so you can focus on your project. Our team connects with certified testers to ensure everything is accurate.",
+        "icon": "Users"
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Stay compliant with local and federal regulations. We make sure all necessary documentation is in place for your project sign-off.",
+        "icon": "CheckCircle"
+      },
+      {
+        "title": "24/7 Emergency Service",
+        "description": "Don't wait for help! Our team is available around the clock to assist you with urgent clearance needs in San Francisco.",
+        "icon": "Clock"
+      }
     ],
-    "faqs": [
-      {"question": "What commercial roofing options do you offer?", "answer": "We offer standing seam, R-panel, corrugated, and flat commercial roofing systems."},
-      {"question": "How long does commercial installation take?", "answer": "Most commercial projects take 1-3 weeks, scheduled to minimize business disruption."},
-      {"question": "Do you offer maintenance contracts?", "answer": "Yes, we offer annual maintenance programs to extend roof life."}
+    "processSteps": [
+      {
+        "title": "Initial Consultation",
+        "description": "We discuss your project needs and timeline to outline the testing process."
+      },
+      {
+        "title": "Testing Coordination",
+        "description": "We schedule and coordinate with third-party testers to perform necessary evaluations."
+      },
+      {
+        "title": "Documentation & Sign-off",
+        "description": "After testing, we provide all required documentation for compliance and project completion."
+      }
     ],
-    "seoTitle": "Commercial Metal Roofing Bay Area | Industrial Roofing",
-    "seoDescription": "Professional commercial and industrial metal roofing services in the Bay Area.",
-    "seoKeywords": ["commercial metal roofing", "industrial roofing", "warehouse roofing"],
-    "isFeatured": true
+    "ctaText": "Schedule Your Clearance Today",
+    "ctaSubtext": "Get peace of mind with our expert verification support in San Francisco.",
+    "trustSection": {
+      "title": "Why Trust Premier Remediation CA?",
+      "points": [
+        "10 years of experience in commercial remediation.",
+        "Licensed and certified for your assurance.",
+        "Dedicated 24/7 support for emergencies."
+      ]
+    },
+    "faqs": [],
+    "seoTitle": "Clearance & Verification Support in San Francisco",
+    "seoDescription": "Get reliable Clearance & Verification Support in San Francisco. Trust Premier Remediation CA for expert testing and compliance documentation.",
+    "seoKeywords": [
+      "clearance & verification support"
+    ],
+    "isFeatured": false,
+    "priceRange": "",
+    "sortOrder": 1,
+    "pageContent": {
+      "heroHeadline": "Ensure Safety with Clearance & Verification Support",
+      "heroSubheadline": "Get reliable third-party testing for compliance and project sign-off in San Francisco. We're here 24/7 for your peace of mind.",
+      "introText": "At Premier Remediation CA, we provide expert Clearance & Verification Support. Our licensed team coordinates third-party testing to ensure your project meets all regulations. Enjoy the confidence of knowing your site is safe and compliant.",
+      "features": [
+        {
+          "title": "Expert Coordination",
+          "description": "We handle all the details of testing, so you can focus on your project. Our team connects with certified testers to ensure everything is accurate.",
+          "icon": "Users"
+        },
+        {
+          "title": "Regulatory Compliance",
+          "description": "Stay compliant with local and federal regulations. We make sure all necessary documentation is in place for your project sign-off.",
+          "icon": "CheckCircle"
+        },
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Don't wait for help! Our team is available around the clock to assist you with urgent clearance needs in San Francisco.",
+          "icon": "Clock"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Initial Consultation",
+          "description": "We discuss your project needs and timeline to outline the testing process."
+        },
+        {
+          "title": "Testing Coordination",
+          "description": "We schedule and coordinate with third-party testers to perform necessary evaluations."
+        },
+        {
+          "title": "Documentation & Sign-off",
+          "description": "After testing, we provide all required documentation for compliance and project completion."
+        }
+      ],
+      "ctaText": "Schedule Your Clearance Today",
+      "ctaSubtext": "Get peace of mind with our expert verification support in San Francisco.",
+      "trustSection": {
+        "title": "Why Trust Premier Remediation CA?",
+        "points": [
+          "10 years of experience in commercial remediation.",
+          "Licensed and certified for your assurance.",
+          "Dedicated 24/7 support for emergencies."
+        ]
+      },
+      "seoTitle": "Clearance & Verification Support in San Francisco",
+      "seoDescription": "Get reliable Clearance & Verification Support in San Francisco. Trust Premier Remediation CA for expert testing and compliance documentation."
+    }
+  },
+  {
+    "id": "commercial-remediation",
+    "slug": "commercial-remediation",
+    "name": "Commercial Property Remediation",
+    "shortDescription": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings.",
+    "description": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings.",
+    "icon": "Building",
+    "heroImage": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-service-commercial-property-remediation-1770024521790.png",
+    "heroTitle": "Swift Solutions for Your Commercial Property Needs",
+    "heroHighlight": "",
+    "heroSubheadline": "Expert remediation services in San Francisco for offices, retail, and industrial spaces, available 24/7 for your peace of mind.",
+    "introText": "At Premier Remediation CA, we specialize in large-scale commercial property remediation. Our licensed team ensures a safe and clean environment for your business, with 24/7 emergency services to handle any crisis.",
+    "benefits": [
+      {
+        "title": "24/7 Emergency Response",
+        "description": "Our team is always ready to tackle emergencies. Whether it's water damage, fire, or mold, we respond quickly to minimize disruption.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Licensed Professionals",
+        "description": "With over 10 years in the industry, our certified experts know how to handle complex remediation tasks effectively and safely.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Comprehensive Services",
+        "description": "From offices to multi-tenant buildings, we provide tailored remediation plans that address your unique needs and ensure a thorough resolution.",
+        "icon": "CheckCircle"
+      }
+    ],
+    "processSteps": [
+      {
+        "title": "Initial Assessment",
+        "description": "We evaluate your property to identify the extent of the damage and create a customized remediation plan."
+      },
+      {
+        "title": "Remediation Work",
+        "description": "Our team executes the remediation plan using advanced techniques to restore your property swiftly and safely."
+      },
+      {
+        "title": "Final Inspection",
+        "description": "We ensure every corner of your property meets safety standards before we leave, giving you peace of mind."
+      }
+    ],
+    "ctaText": "Get Your Free Assessment Today!",
+    "ctaSubtext": "Contact us now to see how we can restore your commercial space.",
+    "trustSection": {
+      "title": "Why You Can Trust Premier Remediation CA",
+      "points": [
+        "10 years of proven experience in San Francisco.",
+        "Fully licensed and certified for your safety.",
+        "Dedicated 24/7 support for emergencies."
+      ]
+    },
+    "faqs": [],
+    "seoTitle": "Premier Commercial Property Remediation in San Francisco",
+    "seoDescription": "Looking for commercial property remediation in San Francisco? Trust Premier Remediation CA for licensed, 24/7 emergency services. Contact us today!",
+    "seoKeywords": [
+      "commercial property remediation"
+    ],
+    "isFeatured": false,
+    "priceRange": "",
+    "sortOrder": 2,
+    "pageContent": {
+      "heroHeadline": "Swift Solutions for Your Commercial Property Needs",
+      "heroSubheadline": "Expert remediation services in San Francisco for offices, retail, and industrial spaces, available 24/7 for your peace of mind.",
+      "introText": "At Premier Remediation CA, we specialize in large-scale commercial property remediation. Our licensed team ensures a safe and clean environment for your business, with 24/7 emergency services to handle any crisis.",
+      "features": [
+        {
+          "title": "24/7 Emergency Response",
+          "description": "Our team is always ready to tackle emergencies. Whether it's water damage, fire, or mold, we respond quickly to minimize disruption.",
+          "icon": "Clock"
+        },
+        {
+          "title": "Licensed Professionals",
+          "description": "With over 10 years in the industry, our certified experts know how to handle complex remediation tasks effectively and safely.",
+          "icon": "Shield"
+        },
+        {
+          "title": "Comprehensive Services",
+          "description": "From offices to multi-tenant buildings, we provide tailored remediation plans that address your unique needs and ensure a thorough resolution.",
+          "icon": "CheckCircle"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Initial Assessment",
+          "description": "We evaluate your property to identify the extent of the damage and create a customized remediation plan."
+        },
+        {
+          "title": "Remediation Work",
+          "description": "Our team executes the remediation plan using advanced techniques to restore your property swiftly and safely."
+        },
+        {
+          "title": "Final Inspection",
+          "description": "We ensure every corner of your property meets safety standards before we leave, giving you peace of mind."
+        }
+      ],
+      "ctaText": "Get Your Free Assessment Today!",
+      "ctaSubtext": "Contact us now to see how we can restore your commercial space.",
+      "trustSection": {
+        "title": "Why You Can Trust Premier Remediation CA",
+        "points": [
+          "10 years of proven experience in San Francisco.",
+          "Fully licensed and certified for your safety.",
+          "Dedicated 24/7 support for emergencies."
+        ]
+      },
+      "seoTitle": "Premier Commercial Property Remediation in San Francisco",
+      "seoDescription": "Looking for commercial property remediation in San Francisco? Trust Premier Remediation CA for licensed, 24/7 emergency services. Contact us today!"
+    }
+  },
+  {
+    "id": "fire-smoke-damage",
+    "slug": "fire-smoke-damage",
+    "name": "Fire & Smoke Damage Cleanup",
+    "shortDescription": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation.",
+    "description": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation.",
+    "icon": "Flame",
+    "heroImage": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-service-fire--smoke-damage-cleanup-1770024528102.png",
+    "heroTitle": "Expert Fire & Smoke Damage Cleanup in San Francisco",
+    "heroHighlight": "",
+    "heroSubheadline": "Get 24/7 emergency service for complete fire damage restoration, including soot cleaning and smoke odor removal.",
+    "introText": "When fire strikes, you need a fast and reliable cleanup service. At Premier Remediation CA, we specialize in restoring properties in San Francisco from fire and smoke damage, ensuring your space is safe and livable again.",
+    "benefits": [
+      {
+        "title": "24/7 Emergency Service",
+        "description": "We’re here for you any time, day or night. Our team responds quickly to minimize damage and start the cleanup process right away.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Complete Fire Damage Restoration",
+        "description": "From removing soot to repairing structural damage, we handle every aspect of fire damage cleanup, leaving your property in top shape.",
+        "icon": "CheckCircle"
+      },
+      {
+        "title": "Certified and Licensed Experts",
+        "description": "With 10 years in business and certified professionals, you can trust us to restore your property safely and effectively.",
+        "icon": "Shield"
+      }
+    ],
+    "processSteps": [
+      {
+        "title": "Assessment and Inspection",
+        "description": "We evaluate the damage to create a tailored cleanup plan for your specific needs."
+      },
+      {
+        "title": "Cleanup and Removal",
+        "description": "Our team removes soot, debris, and any hazardous materials to restore your home or business."
+      },
+      {
+        "title": "Restoration and Repair",
+        "description": "We repair structural damage and ensure your property is safe and comfortable again."
+      }
+    ],
+    "ctaText": "Contact Us for a Free Quote",
+    "ctaSubtext": "Let our experts help you recover from fire damage swiftly and effectively.",
+    "trustSection": {
+      "title": "Why Trust Premier Remediation CA?",
+      "points": [
+        "10 years of trusted service in San Francisco.",
+        "Fully licensed and certified for your peace of mind.",
+        "Dedicated to customer satisfaction and swift recovery."
+      ]
+    },
+    "faqs": [],
+    "seoTitle": "Fire & Smoke Damage Cleanup in San Francisco | Premier Remediation",
+    "seoDescription": "Premier Remediation in San Francisco offers 24/7 fire & smoke damage cleanup. Trust our licensed experts for fast and effective restoration.",
+    "seoKeywords": [
+      "fire & smoke damage cleanup"
+    ],
+    "isFeatured": true,
+    "priceRange": "",
+    "sortOrder": 3,
+    "pageContent": {
+      "heroHeadline": "Expert Fire & Smoke Damage Cleanup in San Francisco",
+      "heroSubheadline": "Get 24/7 emergency service for complete fire damage restoration, including soot cleaning and smoke odor removal.",
+      "introText": "When fire strikes, you need a fast and reliable cleanup service. At Premier Remediation CA, we specialize in restoring properties in San Francisco from fire and smoke damage, ensuring your space is safe and livable again.",
+      "features": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "We’re here for you any time, day or night. Our team responds quickly to minimize damage and start the cleanup process right away.",
+          "icon": "Clock"
+        },
+        {
+          "title": "Complete Fire Damage Restoration",
+          "description": "From removing soot to repairing structural damage, we handle every aspect of fire damage cleanup, leaving your property in top shape.",
+          "icon": "CheckCircle"
+        },
+        {
+          "title": "Certified and Licensed Experts",
+          "description": "With 10 years in business and certified professionals, you can trust us to restore your property safely and effectively.",
+          "icon": "Shield"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Assessment and Inspection",
+          "description": "We evaluate the damage to create a tailored cleanup plan for your specific needs."
+        },
+        {
+          "title": "Cleanup and Removal",
+          "description": "Our team removes soot, debris, and any hazardous materials to restore your home or business."
+        },
+        {
+          "title": "Restoration and Repair",
+          "description": "We repair structural damage and ensure your property is safe and comfortable again."
+        }
+      ],
+      "ctaText": "Contact Us for a Free Quote",
+      "ctaSubtext": "Let our experts help you recover from fire damage swiftly and effectively.",
+      "trustSection": {
+        "title": "Why Trust Premier Remediation CA?",
+        "points": [
+          "10 years of trusted service in San Francisco.",
+          "Fully licensed and certified for your peace of mind.",
+          "Dedicated to customer satisfaction and swift recovery."
+        ]
+      },
+      "seoTitle": "Fire & Smoke Damage Cleanup in San Francisco | Premier Remediation",
+      "seoDescription": "Premier Remediation in San Francisco offers 24/7 fire & smoke damage cleanup. Trust our licensed experts for fast and effective restoration."
+    }
+  },
+  {
+    "id": "mold-remediation",
+    "slug": "mold-remediation",
+    "name": "Mold Remediation",
+    "shortDescription": "Professional mold removal and prevention using containment protocols and HEPA filtration systems.",
+    "description": "Professional mold removal and prevention using containment protocols and HEPA filtration systems.",
+    "icon": "Shield",
+    "heroImage": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-media/hero-service-mold-remediation-1770024534478.png",
+    "heroTitle": "Eliminate Mold Fast with Premier Remediation",
+    "heroHighlight": "",
+    "heroSubheadline": "Get expert mold removal in San Francisco. Our 24/7 emergency service ensures your home stays safe and healthy.",
+    "introText": "At Premier Remediation CA, we specialize in professional mold removal and prevention. Our licensed team uses advanced HEPA filtration systems to keep your home mold-free, ensuring a safe environment for your family.",
+    "benefits": [
+      {
+        "title": "Safe & Effective Solutions",
+        "description": "We use proven containment protocols to safely remove mold from your property. Our methods are designed to protect your home while effectively eliminating mold.",
+        "icon": "Shield"
+      },
+      {
+        "title": "24/7 Emergency Service",
+        "description": "Mold can strike at any time. That's why we offer 24/7 emergency service to address your mold issues quickly, any day of the week.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Certified Professionals",
+        "description": "Our team is fully licensed and certified, giving you peace of mind knowing that your home is in expert hands. We follow all safety regulations.",
+        "icon": "CheckCircle"
+      }
+    ],
+    "processSteps": [
+      {
+        "title": "Inspection",
+        "description": "We start with a thorough inspection of your property to identify mold and its sources."
+      },
+      {
+        "title": "Containment",
+        "description": "Next, we set up containment barriers to stop mold spores from spreading during removal."
+      },
+      {
+        "title": "Removal & Prevention",
+        "description": "Finally, we safely remove the mold and provide tips to prevent future growth."
+      }
+    ],
+    "ctaText": "Contact Us for a Free Assessment",
+    "ctaSubtext": "Let our experts assess your mold problem today. Protect your home in San Francisco.",
+    "trustSection": {
+      "title": "Why Trust Premier Remediation?",
+      "points": [
+        "10 years of experience in mold remediation.",
+        "Licensed and certified for your safety.",
+        "Community-focused service in San Francisco."
+      ]
+    },
+    "faqs": [],
+    "seoTitle": "Mold Remediation Services in San Francisco | Premier Remediation",
+    "seoDescription": "Need mold removal in San Francisco? Trust Premier Remediation for 24/7 emergency service and expert solutions. Keep your home safe!",
+    "seoKeywords": [
+      "mold remediation"
+    ],
+    "isFeatured": true,
+    "priceRange": "",
+    "sortOrder": 4,
+    "pageContent": {
+      "heroHeadline": "Eliminate Mold Fast with Premier Remediation",
+      "heroSubheadline": "Get expert mold removal in San Francisco. Our 24/7 emergency service ensures your home stays safe and healthy.",
+      "introText": "At Premier Remediation CA, we specialize in professional mold removal and prevention. Our licensed team uses advanced HEPA filtration systems to keep your home mold-free, ensuring a safe environment for your family.",
+      "features": [
+        {
+          "title": "Safe & Effective Solutions",
+          "description": "We use proven containment protocols to safely remove mold from your property. Our methods are designed to protect your home while effectively eliminating mold.",
+          "icon": "Shield"
+        },
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Mold can strike at any time. That's why we offer 24/7 emergency service to address your mold issues quickly, any day of the week.",
+          "icon": "Clock"
+        },
+        {
+          "title": "Certified Professionals",
+          "description": "Our team is fully licensed and certified, giving you peace of mind knowing that your home is in expert hands. We follow all safety regulations.",
+          "icon": "CheckCircle"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Inspection",
+          "description": "We start with a thorough inspection of your property to identify mold and its sources."
+        },
+        {
+          "title": "Containment",
+          "description": "Next, we set up containment barriers to stop mold spores from spreading during removal."
+        },
+        {
+          "title": "Removal & Prevention",
+          "description": "Finally, we safely remove the mold and provide tips to prevent future growth."
+        }
+      ],
+      "ctaText": "Contact Us for a Free Assessment",
+      "ctaSubtext": "Let our experts assess your mold problem today. Protect your home in San Francisco.",
+      "trustSection": {
+        "title": "Why Trust Premier Remediation?",
+        "points": [
+          "10 years of experience in mold remediation.",
+          "Licensed and certified for your safety.",
+          "Community-focused service in San Francisco."
+        ]
+      },
+      "seoTitle": "Mold Remediation Services in San Francisco | Premier Remediation",
+      "seoDescription": "Need mold removal in San Francisco? Trust Premier Remediation for 24/7 emergency service and expert solutions. Keep your home safe!"
+    }
+  },
+  {
+    "id": "multifamily-remediation",
+    "slug": "multifamily-remediation",
+    "name": "Multifamily Property Remediation",
+    "shortDescription": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption.",
+    "description": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption.",
+    "icon": "Home",
+    "heroImage": "/images/placeholders/service-default.jpg",
+    "heroTitle": "Multifamily Property Remediation",
+    "heroHighlight": "",
+    "heroSubheadline": "",
+    "introText": "",
+    "benefits": [],
+    "processSteps": [],
+    "ctaText": "Get Free Estimate",
+    "ctaSubtext": "",
+    "trustSection": null,
+    "faqs": [],
+    "seoTitle": "Multifamily Property Remediation Services",
+    "seoDescription": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption.",
+    "seoKeywords": [
+      "multifamily property remediation"
+    ],
+    "isFeatured": false,
+    "priceRange": "",
+    "sortOrder": 5
+  },
+  {
+    "id": "water-damage-mitigation",
+    "slug": "water-damage-mitigation",
+    "name": "Water Damage Mitigation",
+    "shortDescription": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property.",
+    "description": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property.",
+    "icon": "Droplets",
+    "heroImage": "/images/placeholders/service-default.jpg",
+    "heroTitle": "Water Damage Mitigation",
+    "heroHighlight": "",
+    "heroSubheadline": "",
+    "introText": "",
+    "benefits": [],
+    "processSteps": [],
+    "ctaText": "Get Free Estimate",
+    "ctaSubtext": "",
+    "trustSection": null,
+    "faqs": [],
+    "seoTitle": "Water Damage Mitigation Services",
+    "seoDescription": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property.",
+    "seoKeywords": [
+      "water damage mitigation"
+    ],
+    "isFeatured": true,
+    "priceRange": "",
+    "sortOrder": 6
   }
 ]

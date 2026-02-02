@@ -1,68 +1,66 @@
 {
-  "name": "The Roofing Friend",
-  "tagline": "Your Trusted Roofing Partner",
-  "description": "Premium metal roofing services in the San Francisco Bay Area. Expert installation, repair, and maintenance with a 25-year warranty.",
-  "phone": "(415) 697-1849",
-  "phoneRaw": "+14156971849",
-  "email": "info@theroofingfriend.com",
+  "name": "Premier Remediation CA CA",
+  "tagline": "Commercial Remediation. Complete Resolution. Verified Confidence.",
+  "description": "Premier Remediation CA CA specializes in comprehensive commercial water, mold, and fire damage remediation services, ensuring properties return to normal operations swiftly and safely. We understand the critical need for minimal downtime, addressing the unique challenges faced by apartment complexes, high-rises, hotels, and retail/commercial facilities. Our commercial-first approach means we prioritize operational continuity, tenant concerns, and clear documentation throughout the entire remediation process.",
+  "phone": "4159692410",
+  "phoneRaw": "4159692410",
+  "email": "fastrackfix@gmail.com",
   "address": {
-    "street": "1030 Duane Ave",
-    "city": "Santa Clara",
-    "state": "CA",
-    "zip": "95054",
-    "full": "1030 Duane Ave, Santa Clara, CA 95054"
+    "street": "729 Jones Street, apt 7",
+    "city": "San francisco",
+    "state": "",
+    "zip": "94109",
+    "full": "729 Jones Street, apt 7, San francisco, 94109"
   },
-  "owner": "The Roofing Friend Team",
-  "logo": "/lovable-uploads/roofing-friend-logo.png",
+  "owner": {
+    "name": "",
+    "bio": "",
+    "photo": "/images/placeholders/owner-default.jpg"
+  },
+  "logo": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-assets/7ff43f0e-05d6-42e2-8f2a-a1f7c42fbf7d/logo-1770024321889.png",
+  "logoDark": "",
+  "favicon": "/favicon.ico",
   "colors": {
-    "primary": "#1a5f7a",
-    "secondary": "#57c5b6",
-    "accent": "#f97316"
+    "primary": "#022654",
+    "secondary": "#bb1a21",
+    "accent": "#0059a5"
   },
-  "hours": "Mon-Fri: 7AM-6PM, Sat: 8AM-4PM",
-  "certifications": ["Licensed", "Insured", "Bonded", "Sheffield Metals Certified"],
-  "uniqueSellingPoints": ["25-Year Warranty", "Free Estimates", "Same-Day Quotes", "24/7 Emergency Service"],
+  "hours": "Mon-Fri: 8am-6pm, Sat: 9am-4pm",
+  "emergencyService": false,
+  "certifications": [
+    "Licensed"
+  ],
+  "uniqueSellingPoints": [
+    "24/7 Emergency Service"
+  ],
+  "yearsInBusiness": 10,
+  "foundedYear": 2016,
+  "licenseNumber": "",
+  "employeesCount": "",
   "social": {
-    "facebook": "https://facebook.com/theroofingfriend",
-    "instagram": "https://instagram.com/theroofingfriend",
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
     "linkedin": "",
-    "yelp": "https://yelp.com/biz/the-roofing-friend",
-    "youtube": "https://youtube.com/@theroofingfriend",
-    "tiktok": "",
-    "google": ""
-  },
-  "seo": {
-    "siteUrl": "https://theroofingfriend.com",
-    "defaultTitle": "The Roofing Friend | Premium Metal Roofing Bay Area",
-    "titleTemplate": "%s | The Roofing Friend",
-    "description": "Expert metal roofing installation, repair, and maintenance in the San Francisco Bay Area. Standing seam, R-panel, fire-resistant solutions. Free estimates, 25-year warranty.",
-    "keywords": ["metal roofing", "Bay Area", "roofing contractor", "standing seam", "fire resistant roof"]
+    "youtube": "",
+    "yelp": "",
+    "google": "",
+    "tiktok": ""
   },
   "hero": {
-    "headline": "Make Your Roof the",
-    "headlineHighlight": "Best on the Block.",
-    "subheadline": "Premium Metal Roofing, Priced Right. Installed to Last.",
+    "headline": "Welcome to Premier Remediation CA CA",
+    "headlineHighlight": "Confidence.",
+    "subheadline": "Quality service you can trust.",
     "ctaPrimary": "Get Free Estimate",
-    "ctaSecondary": "View Our Work"
+    "ctaSecondary": "View Our Work",
+    "image": "/images/placeholders/hero-default.jpg",
+    "video": ""
   },
-  "trustIndicators": [
-    {"icon": "Shield", "text": "25-Year Warranty"},
-    {"icon": "Truck", "text": "Free Bay Area Delivery"},
-    {"icon": "Award", "text": "Locally Owned & Operated"}
-  ],
-  "statistics": [
-    {"icon": "Users", "number": "500+", "label": "Projects Completed", "description": "Successful installations across the Bay Area"},
-    {"icon": "MapPin", "number": "13+", "label": "Service Areas", "description": "Serving communities throughout California"},
-    {"icon": "Shield", "number": "25", "label": "Year Warranty", "description": "Industry-leading protection for your investment"},
-    {"icon": "Clock", "number": "24/7", "label": "Emergency Service", "description": "Always here when you need us most"}
-  ],
-  "certificationLogos": [
-    {"src": "/lovable-uploads/sheffield-metals.png", "alt": "Sheffield Metals Partner"},
-    {"src": "/lovable-uploads/metal-roofing-alliance.png", "alt": "Metal Roofing Alliance Member"}
-  ],
-  "ratings": {
-    "average": "4.9",
-    "count": "150",
-    "platform": "Google"
+  "seo": {
+    "siteUrl": "",
+    "defaultTitle": "Premier Remediation CA CA | Commercial Remediation. Complete Resolution. Verified Confidence.",
+    "titleTemplate": "%s | Premier Remediation CA CA",
+    "description": "Premier Remediation CA CA specializes in comprehensive commercial water, mold, and fire damage remediation services, ensuring properties return to normal operations swiftly and safely. We understand the critical need for minimal downtime, addressing the unique challenges faced by apartment complexes, high-rises, hotels, and retail/commercial facilities. Our commercial-first approach means we prioritize operational continuity, tenant concerns, and clear documentation throughout the entire remediation process.",
+    "keywords": []
   }
 }

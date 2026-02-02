@@ -1,32 +1,223 @@
 {
   "mainMenu": [
-    { "label": "Home", "href": "/", "visible": true },
+    {
+      "label": "Home",
+      "href": "/",
+      "visible": true
+    },
     {
       "label": "Services",
       "href": "/services",
       "visible": true,
-      "children": []
+      "children": [
+        {
+          "label": "Asbestos & Lead Abatement",
+          "href": "/services/asbestos-lead-abatement",
+          "description": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation."
+        },
+        {
+          "label": "Clearance & Verification Support",
+          "href": "/services/clearance-verification",
+          "description": "Third-party testing coordination and documentation for regulatory compliance and project sign-off."
+        },
+        {
+          "label": "Commercial Property Remediation",
+          "href": "/services/commercial-remediation",
+          "description": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings."
+        },
+        {
+          "label": "Fire & Smoke Damage Cleanup",
+          "href": "/services/fire-smoke-damage",
+          "description": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation."
+        },
+        {
+          "label": "Mold Remediation",
+          "href": "/services/mold-remediation",
+          "description": "Professional mold removal and prevention using containment protocols and HEPA filtration systems."
+        },
+        {
+          "label": "Multifamily Property Remediation",
+          "href": "/services/multifamily-remediation",
+          "description": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption."
+        },
+        {
+          "label": "Water Damage Mitigation",
+          "href": "/services/water-damage-mitigation",
+          "description": "Rapid response water extraction and structural drying to prevent secondary damage and restore your property."
+        }
+      ]
     },
     {
       "label": "Service Areas",
       "href": "/areas",
       "visible": true,
-      "children": []
+      "children": [
+        {
+          "label": "Anchorage",
+          "href": "/areas/anchorage-ak",
+          "description": "Anchorage, AK"
+        },
+        {
+          "label": "Juneau",
+          "href": "/areas/juneau-ak",
+          "description": "Juneau, AK"
+        },
+        {
+          "label": "Fairbanks",
+          "href": "/areas/fairbanks-ak",
+          "description": "Fairbanks, AK"
+        },
+        {
+          "label": "Sitka",
+          "href": "/areas/sitka-ak",
+          "description": "Sitka, AK"
+        }
+      ]
     },
-    { "label": "About", "href": "/about", "visible": true },
-    { "label": "Contact", "href": "/contact", "visible": true }
+    {
+      "label": "About",
+      "href": "/about",
+      "visible": true
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "visible": true
+    }
   ],
   "footerMenu": {
     "company": [
-      { "label": "About Us", "href": "/about" },
-      { "label": "Contact", "href": "/contact" },
-      { "label": "Reviews", "href": "/reviews" }
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "Reviews",
+        "href": "/reviews"
+      }
     ],
-    "services": [],
-    "areas": []
+    "services": [
+      {
+        "label": "Asbestos & Lead Abatement",
+        "href": "/services/asbestos-lead-abatement",
+        "description": "Licensed hazardous material removal following EPA and Cal/OSHA regulations for safe property remediation."
+      },
+      {
+        "label": "Clearance & Verification Support",
+        "href": "/services/clearance-verification",
+        "description": "Third-party testing coordination and documentation for regulatory compliance and project sign-off."
+      },
+      {
+        "label": "Commercial Property Remediation",
+        "href": "/services/commercial-remediation",
+        "description": "Large-scale remediation services for offices, retail, industrial facilities, and multi-tenant buildings."
+      },
+      {
+        "label": "Fire & Smoke Damage Cleanup",
+        "href": "/services/fire-smoke-damage",
+        "description": "Complete fire damage restoration including smoke odor removal, soot cleaning, and structural rehabilitation."
+      },
+      {
+        "label": "Mold Remediation",
+        "href": "/services/mold-remediation",
+        "description": "Professional mold removal and prevention using containment protocols and HEPA filtration systems."
+      },
+      {
+        "label": "Multifamily Property Remediation",
+        "href": "/services/multifamily-remediation",
+        "description": "Specialized remediation for apartment complexes and HOAs with minimal tenant disruption."
+      }
+    ],
+    "areas": [
+      {
+        "label": "Anchorage",
+        "href": "/areas/anchorage-ak",
+        "description": "Anchorage, AK"
+      },
+      {
+        "label": "Juneau",
+        "href": "/areas/juneau-ak",
+        "description": "Juneau, AK"
+      },
+      {
+        "label": "Fairbanks",
+        "href": "/areas/fairbanks-ak",
+        "description": "Fairbanks, AK"
+      },
+      {
+        "label": "Sitka",
+        "href": "/areas/sitka-ak",
+        "description": "Sitka, AK"
+      }
+    ]
   },
-  "servicesList": [],
-  "areasList": [],
-  "_generated": "2024-01-01T00:00:00.000Z",
-  "_businessName": "Business Name"
+  "servicesList": [
+    {
+      "slug": "asbestos-lead-abatement",
+      "name": "Asbestos & Lead Abatement",
+      "isFeatured": false
+    },
+    {
+      "slug": "clearance-verification",
+      "name": "Clearance & Verification Support",
+      "isFeatured": false
+    },
+    {
+      "slug": "commercial-remediation",
+      "name": "Commercial Property Remediation",
+      "isFeatured": false
+    },
+    {
+      "slug": "fire-smoke-damage",
+      "name": "Fire & Smoke Damage Cleanup",
+      "isFeatured": true
+    },
+    {
+      "slug": "mold-remediation",
+      "name": "Mold Remediation",
+      "isFeatured": true
+    },
+    {
+      "slug": "multifamily-remediation",
+      "name": "Multifamily Property Remediation",
+      "isFeatured": false
+    },
+    {
+      "slug": "water-damage-mitigation",
+      "name": "Water Damage Mitigation",
+      "isFeatured": true
+    }
+  ],
+  "areasList": [
+    {
+      "slug": "anchorage-ak",
+      "city": "Anchorage",
+      "state": "AK",
+      "isPrimary": true
+    },
+    {
+      "slug": "juneau-ak",
+      "city": "Juneau",
+      "state": "AK",
+      "isPrimary": false
+    },
+    {
+      "slug": "fairbanks-ak",
+      "city": "Fairbanks",
+      "state": "AK",
+      "isPrimary": false
+    },
+    {
+      "slug": "sitka-ak",
+      "city": "Sitka",
+      "state": "AK",
+      "isPrimary": false
+    }
+  ],
+  "_generated": "2026-02-02T09:28:22.351Z",
+  "_businessName": "Premier Remediation CA CA"
 }

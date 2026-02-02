@@ -1,42 +1,31 @@
 {
-  "name": "FastFix Tenant CRM",
-  "short_name": "Tenant CRM",
-  "description": "Your trusted business partner.",
+  "name": "Premier Remediation CA CA",
+  "short_name": "Premier Reme",
+  "description": "Premier Remediation CA CA specializes in comprehensive commercial water, mold, and fire damage remediation services, ensuring properties return to normal operations swiftly and safely. We understand t",
   "start_url": "/mobile/home",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#0b3040",
-  "theme_color": "#0b3040",
-  "categories": ["business", "productivity"],
+  "background_color": "#022654",
+  "theme_color": "#022654",
+  "categories": [
+    "business",
+    "productivity"
+  ],
   "lang": "en",
   "dir": "ltr",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-assets/7ff43f0e-05d6-42e2-8f2a-a1f7c42fbf7d/logo-1770024321889.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-assets/7ff43f0e-05d6-42e2-8f2a-a1f7c42fbf7d/logo-1770024321889.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "/icons/screenshot-desktop.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/icons/screenshot-mobile.png", 
-      "sizes": "390x844",
-      "type": "image/png",
-      "form_factor": "narrow"
     }
   ]
 }
