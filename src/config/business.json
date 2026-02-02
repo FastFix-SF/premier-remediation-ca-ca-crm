@@ -1,66 +1,20 @@
 {
   "name": "Premier Remediation CA CA",
-  "tagline": "Commercial Remediation. Complete Resolution. Verified Confidence.",
-  "description": "Premier Remediation CA CA specializes in comprehensive commercial water, mold, and fire damage remediation services, ensuring properties return to normal operations swiftly and safely. We understand the critical need for minimal downtime, addressing the unique challenges faced by apartment complexes, high-rises, hotels, and retail/commercial facilities. Our commercial-first approach means we prioritize operational continuity, tenant concerns, and clear documentation throughout the entire remediation process.",
-  "phone": "4159692410",
-  "phoneRaw": "4159692410",
-  "email": "fastrackfix@gmail.com",
+  "tagline": "",
+  "description": "",
+  "phone": "",
+  "email": "",
   "address": {
-    "street": "729 Jones Street, apt 7",
-    "city": "San francisco",
+    "street": "",
+    "city": "",
     "state": "",
-    "zip": "94109",
-    "full": "729 Jones Street, apt 7, San francisco, 94109"
+    "zip": ""
   },
   "owner": {
     "name": "",
-    "bio": "",
-    "photo": "/images/placeholders/owner-default.jpg"
+    "title": "",
+    "photoUrl": ""
   },
-  "logo": "https://ivainhvckowigupafbae.supabase.co/storage/v1/object/public/business-assets/7ff43f0e-05d6-42e2-8f2a-a1f7c42fbf7d/logo-1770024321889.png",
-  "logoDark": "",
-  "favicon": "/favicon.ico",
-  "colors": {
-    "primary": "#022654",
-    "secondary": "#bb1a21",
-    "accent": "#0059a5"
-  },
-  "hours": "Mon-Fri: 8am-6pm, Sat: 9am-4pm",
-  "emergencyService": false,
-  "certifications": [
-    "Licensed"
-  ],
-  "uniqueSellingPoints": [
-    "24/7 Emergency Service"
-  ],
-  "yearsInBusiness": 10,
-  "foundedYear": 2016,
-  "licenseNumber": "",
-  "employeesCount": "",
-  "social": {
-    "facebook": "",
-    "instagram": "",
-    "twitter": "",
-    "linkedin": "",
-    "youtube": "",
-    "yelp": "",
-    "google": "",
-    "tiktok": ""
-  },
-  "hero": {
-    "headline": "Welcome to Premier Remediation CA CA",
-    "headlineHighlight": "Confidence.",
-    "subheadline": "Quality service you can trust.",
-    "ctaPrimary": "Get Free Estimate",
-    "ctaSecondary": "View Our Work",
-    "image": "/images/placeholders/hero-default.jpg",
-    "video": ""
-  },
-  "seo": {
-    "siteUrl": "",
-    "defaultTitle": "Premier Remediation CA CA | Commercial Remediation. Complete Resolution. Verified Confidence.",
-    "titleTemplate": "%s | Premier Remediation CA CA",
-    "description": "Premier Remediation CA CA specializes in comprehensive commercial water, mold, and fire damage remediation services, ensuring properties return to normal operations swiftly and safely. We understand the critical need for minimal downtime, addressing the unique challenges faced by apartment complexes, high-rises, hotels, and retail/commercial facilities. Our commercial-first approach means we prioritize operational continuity, tenant concerns, and clear documentation throughout the entire remediation process.",
-    "keywords": []
-  }
+  "yearsInBusiness": null,
+  "licenseNumber": ""
 }

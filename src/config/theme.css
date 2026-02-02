@@ -1,24 +1,5 @@
-/* Auto-generated theme.css - DO NOT EDIT MANUALLY */
-/* Generated at: 2026-02-02T09:28:22.350Z */
-
 :root {
-  /* Primary brand color */
-  --primary: 214 95% 17%;
-  --primary-foreground: 0 0% 100%;
-
-  /* Secondary color */
-  --secondary: 357 76% 42%;
-  --secondary-foreground: 220 15% 25%;
-
-  /* Accent color */
-  --accent: 208 100% 32%;
-  --accent-foreground: 0 0% 100%;
-
-  /* Ring (focus state) */
-  --ring: 214 95% 17%;
-
-  /* Sidebar primary */
-  --sidebar-primary: 214 95% 17%;
-  --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-ring: 214 95% 17%;
+  --primary: #022654;
+  --secondary: #bb1a21;
+  --accent: #0059a5;
 }
