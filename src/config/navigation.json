@@ -1,0 +1,32 @@
+{
+  "mainMenu": [
+    { "label": "Home", "href": "/", "visible": true },
+    {
+      "label": "Services",
+      "href": "/services",
+      "visible": true,
+      "children": []
+    },
+    {
+      "label": "Service Areas",
+      "href": "/areas",
+      "visible": true,
+      "children": []
+    },
+    { "label": "About", "href": "/about", "visible": true },
+    { "label": "Contact", "href": "/contact", "visible": true }
+  ],
+  "footerMenu": {
+    "company": [
+      { "label": "About Us", "href": "/about" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Reviews", "href": "/reviews" }
+    ],
+    "services": [],
+    "areas": []
+  },
+  "servicesList": [],
+  "areasList": [],
+  "_generated": "2024-01-01T00:00:00.000Z",
+  "_businessName": "Business Name"
+}

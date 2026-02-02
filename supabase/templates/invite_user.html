@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roofing Friend Team Invitation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+            border-bottom: 3px solid #FF6600;
+            padding-bottom: 24px;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #FF6600;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #666666;
+            font-size: 16px;
+        }
+        .content {
+            margin-bottom: 32px;
+        }
+        .welcome-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .message {
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #555555;
+        }
+        .message-spanish {
+            font-size: 15px;
+            color: #777777;
+            font-style: italic;
+            margin-bottom: 24px;
+        }
+        .cta-container {
+            text-align: center;
+            margin: 32px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #FF6600;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            border: none;
+            box-shadow: 0 2px 4px rgba(255, 102, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #e55a00;
+        }
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #FF6600;
+            margin: 24px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+            color: #666666;
+            font-size: 14px;
+        }
+        .ignore-text {
+            margin-top: 24px;
+            font-size: 13px;
+            color: #999999;
+            text-align: center;
+        }
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            .cta-button {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🏠 Roofing Friend</div>
+            <div class="subtitle">Professional Roofing Solutions</div>
+        </div>
+
+        <div class="content">
+            <h1 class="welcome-title">Welcome to Roofing Friend / Bienvenido a Roofing Friend</h1>
+            
+            <p class="message">You've been invited to join the official <strong>Roofing Friend Dashboard</strong>.</p>
+            <p class="message-spanish">Has sido invitado a unirte al <strong>Panel de Roofing Friend</strong>.</p>
+
+            <div class="instructions">
+                <p class="message">👉 Click below to set your password and access your account.</p>
+                <p class="message-spanish">👉 Haz clic abajo para crear tu contraseña y acceder a tu cuenta.</p>
+            </div>
+
+            <div class="cta-container">
+                <a href="{{ .ConfirmationURL }}" class="cta-button">
+                    Accept Invite / Aceptar Invitación
+                </a>
+            </div>
+
+            <p class="message">Once inside, you'll see your access based on your role.</p>
+            <p class="message-spanish">Al ingresar, verás tu acceso según tu rol.</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>Thanks, / Gracias,</strong></p>
+            <p><strong>The Roofing Friend Team / El Equipo de Roofing Friend</strong></p>
+        </div>
+
+        <div class="ignore-text">
+            <p>If you weren't expecting this email, ignore it.<br>
+            Si no esperabas este correo, ignóralo.</p>
+        </div>
+    </div>
+</body>
+</html>

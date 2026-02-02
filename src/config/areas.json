@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "san-francisco",
+    "name": "San Francisco",
+    "fullName": "San Francisco, California",
+    "description": "Premier metal roofing services in the heart of San Francisco, serving residential and commercial properties with expert craftsmanship and premium materials.",
+    "population": "875,000+",
+    "heroImage": "/lovable-uploads/0ff36cf7-372c-449f-9bca-52afe3c60788.png",
+    "neighborhoods": ["Mission District", "SOMA", "Pacific Heights", "Richmond", "Sunset District", "Castro", "Haight-Ashbury"],
+    "services": ["Standing Seam Metal Roofing", "R-Panel Installation", "Roof Repair & Maintenance", "Commercial Roofing", "Emergency Roof Services"],
+    "testimonial": {
+      "name": "Sarah Chen",
+      "text": "Outstanding work on our Victorian home. The metal roof looks amazing and the team was professional throughout.",
+      "rating": 5,
+      "project": "Standing Seam Installation"
+    },
+    "faqs": [
+      {"question": "Do you provide metal roofing services throughout San Francisco?", "answer": "Yes, we provide comprehensive metal roofing services throughout all San Francisco neighborhoods, including the Mission, SOMA, Pacific Heights, and more."},
+      {"question": "What types of metal roofing work best in San Francisco's climate?", "answer": "Standing seam and R-panel systems work excellently in San Francisco due to their durability against fog, salt air, and temperature variations."},
+      {"question": "How long does a metal roof installation take in San Francisco?", "answer": "Most residential installations take 2-5 days, depending on the size and complexity. We work efficiently while maintaining our high quality standards."}
+    ],
+    "coordinates": {"lat": 37.7749, "lng": -122.4194}
+  },
+  {
+    "slug": "santa-clara",
+    "name": "Santa Clara",
+    "fullName": "Santa Clara, California",
+    "description": "Expert metal roofing solutions for Santa Clara residents and businesses."
+  }
+]

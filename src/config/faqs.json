@@ -1,0 +1,134 @@
+[
+  {
+    "id": "general-1",
+    "question": "What areas do you serve?",
+    "answer": "We serve the entire San Francisco Bay Area including San Francisco, Santa Clara, Walnut Creek, Tiburon, San Anselmo, Santa Cruz, Santa Rosa, Modesto, Petaluma, Los Gatos, Kentfield, Alameda County, and Contra Costa County.",
+    "category": "general"
+  },
+  {
+    "id": "general-2",
+    "question": "How long does a metal roof last?",
+    "answer": "Quality metal roofs last 40-70+ years with minimal maintenance, significantly longer than traditional asphalt shingles which typically last 15-20 years.",
+    "category": "general"
+  },
+  {
+    "id": "general-3",
+    "question": "Do you offer free estimates?",
+    "answer": "Yes, we provide free, no-obligation estimates for all roofing projects. Contact us to schedule your consultation.",
+    "category": "general"
+  },
+  {
+    "id": "general-4",
+    "question": "What warranty do you offer?",
+    "answer": "We offer a comprehensive 25-year warranty covering materials and workmanship on all our installations.",
+    "category": "general"
+  },
+  {
+    "id": "general-5",
+    "question": "Are metal roofs noisy during rain?",
+    "answer": "Modern metal roofs with proper insulation and underlayment are no noisier than other roofing materials. Professional installation includes sound-dampening techniques.",
+    "category": "general"
+  },
+  {
+    "id": "general-6",
+    "question": "Do metal roofs increase home value?",
+    "answer": "Yes, metal roofs can increase home value by 1-6% and offer up to 85% return on investment due to their durability, energy efficiency, and low maintenance.",
+    "category": "general"
+  },
+  {
+    "id": "residential-1",
+    "question": "How much does a residential metal roof cost?",
+    "answer": "Residential metal roofing costs typically range from $8-$16 per square foot installed, depending on the material type, roof complexity, and local factors.",
+    "category": "residential"
+  },
+  {
+    "id": "residential-2",
+    "question": "Can metal roofs withstand Bay Area weather?",
+    "answer": "Absolutely. Metal roofs excel in Bay Area conditions - they're fire-resistant for wildfire zones, earthquake-safe due to light weight, and handle coastal salt air better than other materials.",
+    "category": "residential"
+  },
+  {
+    "id": "residential-3",
+    "question": "What types of residential metal roofing do you offer?",
+    "answer": "We offer standing seam, R-panel, corrugated, and architectural metal roofing systems in various colors and finishes to complement any home style.",
+    "category": "residential"
+  },
+  {
+    "id": "commercial-1",
+    "question": "What commercial roofing options do you offer?",
+    "answer": "We offer standing seam, R-panel, corrugated, and flat commercial roofing systems suitable for warehouses, offices, retail, and industrial facilities.",
+    "category": "commercial"
+  },
+  {
+    "id": "commercial-2",
+    "question": "How long does commercial installation take?",
+    "answer": "Project timelines vary by size. Most commercial projects take 1-3 weeks, and we schedule work to minimize business disruption.",
+    "category": "commercial"
+  },
+  {
+    "id": "commercial-3",
+    "question": "Do you offer maintenance contracts?",
+    "answer": "Yes, we offer annual maintenance programs to extend roof life and catch issues early, keeping your commercial property protected.",
+    "category": "commercial"
+  },
+  {
+    "id": "standing-seam-1",
+    "question": "What is standing seam roofing?",
+    "answer": "Standing seam features raised interlocking seams that conceal fasteners, creating a sleek appearance and superior weather resistance.",
+    "category": "standing-seam"
+  },
+  {
+    "id": "standing-seam-2",
+    "question": "Is standing seam more expensive?",
+    "answer": "Standing seam costs more upfront but offers better longevity, lower maintenance, and higher property value over time.",
+    "category": "standing-seam"
+  },
+  {
+    "id": "standing-seam-3",
+    "question": "How long does standing seam last?",
+    "answer": "Standing seam roofs typically last 50-70+ years with proper installation and minimal maintenance.",
+    "category": "standing-seam"
+  },
+  {
+    "id": "r-panel-1",
+    "question": "What is R-panel roofing?",
+    "answer": "R-panel is an exposed fastener metal roofing system with ribbed panels, offering excellent value and durability for various applications.",
+    "category": "r-panel"
+  },
+  {
+    "id": "r-panel-2",
+    "question": "Is R-panel good for homes?",
+    "answer": "Yes, R-panel is great for homes, especially agricultural, rural, and modern architectural styles where it provides excellent protection at a lower cost.",
+    "category": "r-panel"
+  },
+  {
+    "id": "repair-1",
+    "question": "How often should I have my roof inspected?",
+    "answer": "We recommend annual inspections, plus after major storms. Regular inspections catch small issues before they become expensive problems.",
+    "category": "repair"
+  },
+  {
+    "id": "repair-2",
+    "question": "Do you repair all types of metal roofs?",
+    "answer": "Yes, we repair standing seam, R-panel, corrugated, and all other metal roofing systems.",
+    "category": "repair"
+  },
+  {
+    "id": "storm-fire-1",
+    "question": "Do you offer emergency repair services?",
+    "answer": "Yes, we provide 24/7 emergency response for storm and fire damage to minimize further property damage.",
+    "category": "storm-fire"
+  },
+  {
+    "id": "storm-fire-2",
+    "question": "Are metal roofs fire resistant?",
+    "answer": "Yes, metal roofs have Class A fire ratings, the highest available, making them ideal for wildfire-prone areas throughout California.",
+    "category": "storm-fire"
+  },
+  {
+    "id": "storm-fire-3",
+    "question": "Can metal roofs support solar panels?",
+    "answer": "Absolutely. Metal roofs are excellent for solar integration and often outlast solar panel warranties.",
+    "category": "storm-fire"
+  }
+]

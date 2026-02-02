@@ -1,0 +1,24 @@
+{
+  "appId": "com.roofingfriend.app",
+  "appName": "Roofing Friend",
+  "webDir": "dist",
+  "server": {
+    "url": "https://roofingfriend.lovable.app/mobile/home?forceHideBadge=true",
+    "cleartext": true,
+    "allowNavigation": ["roofingfriend.lovable.app", "*.lovable.app"]
+  },
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "LIGHT",
+      "backgroundColor": "#000000"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_config_sample",
+      "iconColor": "#488AFF"
+    }
+  }
+}

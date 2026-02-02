@@ -1,0 +1,116 @@
+### Auto-Outline Roof Smoke Tests
+### These tests validate the enhanced auto-outline-roof function
+
+### Test 1: Expected Success Case (Nearmap)
+POST https://mnitzgoythqqevhtkitj.supabase.co/functions/v1/auto-outline-roof
+Authorization: Bearer YOUR_SUPABASE_ANON_KEY_HERE
+Content-Type: application/json
+
+{
+  "quote_request_id": "test-quote-id-nearmap",
+  "precision": "high"
+}
+
+### Expected Response:
+### {
+###   "success": true,
+###   "method": "openai_assistant" | "huggingface_segmentation" | "opencv_fallback",
+###   "confidence": 0.85-0.99,
+###   "roof_roi": { "type": "Feature", ... },
+###   "crop_meta": { "bbox_lonlat": { ... } }
+### }
+
+###
+
+### Test 2: Fallback Case (Expected to use Mapbox/OpenCV)
+POST https://mnitzgoythqqevhtkitj.supabase.co/functions/v1/auto-outline-roof
+Authorization: Bearer YOUR_SUPABASE_ANON_KEY_HERE
+Content-Type: application/json
+
+{
+  "quote_request_id": "test-quote-id-fallback",
+  "precision": "standard"
+}
+
+### Expected Response (fallback methods):
+### {
+###   "success": true,
+###   "method": "fallback_openai" | "fallback_opencv",
+###   "confidence": 0.60-0.85,
+###   "roof_roi": { "type": "Feature", ... }
+### }
+
+###
+
+### Test 3: Missing Quote Request (Expected Error)
+POST https://mnitzgoythqqevhtkitj.supabase.co/functions/v1/auto-outline-roof
+Authorization: Bearer YOUR_SUPABASE_ANON_KEY_HERE
+Content-Type: application/json
+
+{
+  "quote_request_id": "non-existent-quote-id",
+  "precision": "high"
+}
+
+### Expected Response:
+### {
+###   "success": false,
+###   "step": "load-row",
+###   "message": "Quote request not found",
+###   "details": "Not found"
+### }
+
+###
+
+### Test 4: Missing Parameters (Expected Error)
+POST https://mnitzgoythqqevhtkitj.supabase.co/functions/v1/auto-outline-roof
+Authorization: Bearer YOUR_SUPABASE_ANON_KEY_HERE
+Content-Type: application/json
+
+{
+  "precision": "high"
+}
+
+### Expected Response:
+### {
+###   "success": false,
+###   "step": "preflight",
+###   "message": "quote_request_id is required",
+###   "details": "Missing required parameter"
+### }
+
+###
+
+### Test 5: Environmental Check (Expected Success if tokens configured)
+POST https://mnitzgoythqqevhtkitj.supabase.co/functions/v1/auto-outline-roof
+Authorization: Bearer YOUR_SUPABASE_ANON_KEY_HERE
+Content-Type: application/json
+
+{
+  "quote_request_id": "any-id-for-env-check"
+}
+
+### Expected Response if tokens missing:
+### {
+###   "success": false,
+###   "step": "env",
+###   "message": "Missing env: HUGGINGFACE_API_TOKEN",
+###   "details": {}
+### }
+
+### Notes for Testing:
+### 1. Replace YOUR_SUPABASE_ANON_KEY_HERE with actual anon key
+### 2. Replace test quote IDs with actual quote request IDs from your database
+### 3. Ensure quote requests have crop_meta and roi_image_url set
+### 4. First call may take 15-30s (model cold start), subsequent calls should be 5-10s
+### 5. Check that returned polygon overlays correctly in map viewport
+### 6. Validate that confidence scores are realistic (0.6-0.99)
+### 7. Monitor function logs for detailed step-by-step execution
+
+### Success Criteria:
+### ✅ Missing HF token returns 500 step='env' (not "unknown")
+### ✅ HF 401/403 returns 422 step='hf-infer' with details.status
+### ✅ Bad polygon returns 422 step='polygon-validate'
+### ✅ Success returns method + confidence and polygon overlays correctly
+### ✅ Response time 5-25s (excluding cold starts)
+### ✅ Toast messages show format: "auto-outline-roof failed — step: message"

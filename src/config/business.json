@@ -1,0 +1,68 @@
+{
+  "name": "The Roofing Friend",
+  "tagline": "Your Trusted Roofing Partner",
+  "description": "Premium metal roofing services in the San Francisco Bay Area. Expert installation, repair, and maintenance with a 25-year warranty.",
+  "phone": "(415) 697-1849",
+  "phoneRaw": "+14156971849",
+  "email": "info@theroofingfriend.com",
+  "address": {
+    "street": "1030 Duane Ave",
+    "city": "Santa Clara",
+    "state": "CA",
+    "zip": "95054",
+    "full": "1030 Duane Ave, Santa Clara, CA 95054"
+  },
+  "owner": "The Roofing Friend Team",
+  "logo": "/lovable-uploads/roofing-friend-logo.png",
+  "colors": {
+    "primary": "#1a5f7a",
+    "secondary": "#57c5b6",
+    "accent": "#f97316"
+  },
+  "hours": "Mon-Fri: 7AM-6PM, Sat: 8AM-4PM",
+  "certifications": ["Licensed", "Insured", "Bonded", "Sheffield Metals Certified"],
+  "uniqueSellingPoints": ["25-Year Warranty", "Free Estimates", "Same-Day Quotes", "24/7 Emergency Service"],
+  "social": {
+    "facebook": "https://facebook.com/theroofingfriend",
+    "instagram": "https://instagram.com/theroofingfriend",
+    "linkedin": "",
+    "yelp": "https://yelp.com/biz/the-roofing-friend",
+    "youtube": "https://youtube.com/@theroofingfriend",
+    "tiktok": "",
+    "google": ""
+  },
+  "seo": {
+    "siteUrl": "https://theroofingfriend.com",
+    "defaultTitle": "The Roofing Friend | Premium Metal Roofing Bay Area",
+    "titleTemplate": "%s | The Roofing Friend",
+    "description": "Expert metal roofing installation, repair, and maintenance in the San Francisco Bay Area. Standing seam, R-panel, fire-resistant solutions. Free estimates, 25-year warranty.",
+    "keywords": ["metal roofing", "Bay Area", "roofing contractor", "standing seam", "fire resistant roof"]
+  },
+  "hero": {
+    "headline": "Make Your Roof the",
+    "headlineHighlight": "Best on the Block.",
+    "subheadline": "Premium Metal Roofing, Priced Right. Installed to Last.",
+    "ctaPrimary": "Get Free Estimate",
+    "ctaSecondary": "View Our Work"
+  },
+  "trustIndicators": [
+    {"icon": "Shield", "text": "25-Year Warranty"},
+    {"icon": "Truck", "text": "Free Bay Area Delivery"},
+    {"icon": "Award", "text": "Locally Owned & Operated"}
+  ],
+  "statistics": [
+    {"icon": "Users", "number": "500+", "label": "Projects Completed", "description": "Successful installations across the Bay Area"},
+    {"icon": "MapPin", "number": "13+", "label": "Service Areas", "description": "Serving communities throughout California"},
+    {"icon": "Shield", "number": "25", "label": "Year Warranty", "description": "Industry-leading protection for your investment"},
+    {"icon": "Clock", "number": "24/7", "label": "Emergency Service", "description": "Always here when you need us most"}
+  ],
+  "certificationLogos": [
+    {"src": "/lovable-uploads/sheffield-metals.png", "alt": "Sheffield Metals Partner"},
+    {"src": "/lovable-uploads/metal-roofing-alliance.png", "alt": "Metal Roofing Alliance Member"}
+  ],
+  "ratings": {
+    "average": "4.9",
+    "count": "150",
+    "platform": "Google"
+  }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - The Roofing Friend</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #0b3040, #1a4a5c);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .container {
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+    
+    .icon {
+      width: 80px;
+      height: 80px;
+      background: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 2rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #0b3040;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+    }
+    
+    .features {
+      text-align: left;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      backdrop-filter: blur(10px);
+    }
+    
+    .features h3 {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    
+    .features ul {
+      list-style: none;
+    }
+    
+    .features li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    
+    .features li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #4ade80;
+      font-weight: bold;
+    }
+    
+    .retry-btn {
+      background: white;
+      color: #0b3040;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    
+    .retry-btn:hover {
+      transform: translateY(-2px);
+    }
+    
+    .network-status {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    
+    .online {
+      color: #4ade80;
+    }
+    
+    .offline {
+      color: #f87171;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">R</div>
+    
+    <h1>You're Currently Offline</h1>
+    <p>Don't worry! We'll sync everything when your connection returns.</p>
+    
+    <div class="features">
+      <h3>What you can still do:</h3>
+      <ul>
+        <li>Browse cached roofing products</li>
+        <li>View saved project details</li>
+        <li>Access contact information</li>
+        <li>Use the roof calculator (basic mode)</li>
+      </ul>
+    </div>
+    
+    <button class="retry-btn" onclick="retryConnection()">
+      Try Again
+    </button>
+    
+    <div class="network-status">
+      Status: <span id="connection-status" class="offline">Offline</span>
+    </div>
+  </div>
+
+  <script>
+    // Check connection status
+    function updateConnectionStatus() {
+      const status = document.getElementById('connection-status');
+      if (navigator.onLine) {
+        status.textContent = 'Online';
+        status.className = 'online';
+      } else {
+        status.textContent = 'Offline';
+        status.className = 'offline';
+      }
+    }
+    
+    // Retry connection
+    function retryConnection() {
+      if (navigator.onLine) {
+        window.location.reload();
+      } else {
+        alert('Still offline. Please check your internet connection.');
+      }
+    }
+    
+    // Listen for connection changes
+    window.addEventListener('online', () => {
+      updateConnectionStatus();
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
+    });
+    
+    window.addEventListener('offline', updateConnectionStatus);
+    
+    // Initial status check
+    updateConnectionStatus();
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "residential-roofing",
+    "slug": "residential-roofing",
+    "name": "Residential Roofing",
+    "shortDescription": "Premium metal roofing solutions for homes",
+    "icon": "Home",
+    "heroImage": "/lovable-uploads/2ec5247c-14cb-4a9b-9fe1-fd72913ad3e7.png",
+    "heroTitle": "Residential Metal Roofing",
+    "heroHighlight": "Bay Area Experts",
+    "description": "Transform your home with premium metal roofing. Fire-resistant, energy-efficient, and built to last 40-70+ years. Perfect for Bay Area homes.",
+    "benefits": [
+      {"icon": "Shield", "title": "Fire Resistance", "description": "Class A fire rating for wildfire protection"},
+      {"icon": "Award", "title": "Energy Efficient", "description": "Reduces cooling costs by up to 25%"},
+      {"icon": "Clock", "title": "Long Lasting", "description": "40-70+ year lifespan with minimal maintenance"},
+      {"icon": "CheckCircle", "title": "Weather Resistant", "description": "Handles wind, hail, and seismic activity"}
+    ],
+    "faqs": [
+      {"question": "How much does a residential metal roof cost?", "answer": "Residential metal roofing costs typically range from $8-$16 per square foot installed, depending on the material type, roof complexity, and local factors."},
+      {"question": "Do metal roofs increase home value?", "answer": "Yes, metal roofs can increase home value by 1-6% and offer up to 85% return on investment."},
+      {"question": "How long do residential metal roofs last?", "answer": "Quality metal roofs last 40-70+ years with minimal maintenance, compared to 15-20 years for asphalt shingles."},
+      {"question": "Are metal roofs noisy during rain?", "answer": "Modern metal roofs with proper insulation and underlayment are no noisier than other roofing materials."},
+      {"question": "Can metal roofs withstand Bay Area weather?", "answer": "Absolutely. Metal roofs excel in Bay Area conditions - fire-resistant, earthquake-safe, and handle coastal salt air."}
+    ],
+    "seoTitle": "Residential Metal Roofing Installation Bay Area",
+    "seoDescription": "Expert residential metal roof installation in the Bay Area. Standing seam, R-panel options. 25-year warranty, fire-resistant.",
+    "seoKeywords": ["residential metal roofing", "home metal roof installation", "Bay Area residential roofing"],
+    "isFeatured": true
+  },
+  {
+    "id": "commercial-roofing",
+    "slug": "commercial-roofing",
+    "name": "Commercial & Industrial",
+    "shortDescription": "Industrial-grade roofing for businesses and warehouses",
+    "icon": "Building",
+    "heroImage": "/lovable-uploads/commercial-roofing.jpg",
+    "heroTitle": "Commercial Metal Roofing",
+    "heroHighlight": "Industrial Solutions",
+    "description": "Durable, cost-effective metal roofing systems for commercial and industrial buildings. Energy-efficient solutions that reduce operating costs.",
+    "benefits": [
+      {"icon": "DollarSign", "title": "Cost Effective", "description": "Lower lifetime costs than traditional roofing"},
+      {"icon": "Zap", "title": "Energy Savings", "description": "Reflective coatings reduce cooling costs"},
+      {"icon": "Shield", "title": "Durable", "description": "Withstands heavy foot traffic and equipment"},
+      {"icon": "Clock", "title": "Quick Installation", "description": "Minimize business disruption"}
+    ],
+    "faqs": [
+      {"question": "What commercial roofing options do you offer?", "answer": "We offer standing seam, R-panel, corrugated, and flat commercial roofing systems."},
+      {"question": "How long does commercial installation take?", "answer": "Most commercial projects take 1-3 weeks, scheduled to minimize business disruption."},
+      {"question": "Do you offer maintenance contracts?", "answer": "Yes, we offer annual maintenance programs to extend roof life."}
+    ],
+    "seoTitle": "Commercial Metal Roofing Bay Area | Industrial Roofing",
+    "seoDescription": "Professional commercial and industrial metal roofing services in the Bay Area.",
+    "seoKeywords": ["commercial metal roofing", "industrial roofing", "warehouse roofing"],
+    "isFeatured": true
+  }
+]

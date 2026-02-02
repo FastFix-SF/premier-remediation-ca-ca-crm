@@ -1,0 +1,26 @@
+/* Auto-generated theme.css - Tenant color overrides */
+/* This file is generated during deployment from wizard data */
+/* DO NOT EDIT MANUALLY - changes will be overwritten */
+
+/* Default colors (will be replaced during deployment) */
+:root {
+  /* Primary brand color */
+  --primary: 205 50% 21%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary color */
+  --secondary: 215 25% 95%;
+  --secondary-foreground: 220 15% 25%;
+
+  /* Accent color */
+  --accent: 25 95% 55%;
+  --accent-foreground: 0 0% 100%;
+
+  /* Ring (focus state) */
+  --ring: 205 50% 21%;
+
+  /* Sidebar primary */
+  --sidebar-primary: 205 50% 21%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-ring: 205 50% 21%;
+}
